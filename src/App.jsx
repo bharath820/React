@@ -5,6 +5,7 @@ import Render from "./Rendering/renderList.jsx"
 import Routes from "./Routes"
 import Hooks from "./Hooks/useState.jsx"
 import UseEffectExample from "./Hooks/useEffect.jsx"
+import Context from "./Hooks/usecontext.jsx"
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
   return (
     <>
     {/* <Routes /> */}
-    <Hooks />
+    {/* <Hooks /> */}
     {/* <UseEffectExample /> */}
+    <Context />
     </>
   )
 }
